@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "I am a third year Engineering Physics student"
+title: "Engineering Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a third year Engineering Physics student.  
+I am a third year Engineering Physics student at the University Of British Columbia. I am very passionate about yada yada yada.   
 
 
