@@ -26,9 +26,3 @@ The robot was programmed to navigate an obstacle course, identify target objects
     Your browser does not support the video tag.
   </video>
 </div>
-
-## Results
-
----
-
-*This project represents a combination of mechanical, electrical, and software engineering — a great example of practical robotics integration.*
