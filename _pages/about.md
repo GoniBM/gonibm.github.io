@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year Engineering Physics student at the University Of British Columbia. I am very passionate about yada yada yada.   
+I am a third year Engineering Physics student at the University Of British Columbia. I am very passionate about mechanical design. 
 
 
