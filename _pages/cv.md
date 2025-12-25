@@ -11,7 +11,7 @@ redirect_from:
 
 <!-- Embed PDF preview -->
 <iframe src="/files/Goni Bebzuck Marom Resume 2025.pdf" width="100%" height="800px">
-  Your browser does not support PDFs. You can download it <a href="/files/resume.pdf">here</a>.
+  Your browser does not support PDFs. You can download it <a href="/files/Goni Bebzuck Marom Resume 2025.pdf">here</a>.
 </iframe>
 
 Education
