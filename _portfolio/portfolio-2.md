@@ -1,6 +1,6 @@
 ---
 title: "Machine Shop Course"
-excerpt: "Building an autonomous robot for a pet rescue competition<br/><img src='/images/Robot_1.jpg'>"
+excerpt: "Building an autonomous robot for a pet rescue competition<br/><img src='/images/cadofMachshop.png'>"
 collection: portfolio
 ---
 
