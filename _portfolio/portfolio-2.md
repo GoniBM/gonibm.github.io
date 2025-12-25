@@ -5,24 +5,20 @@ collection: portfolio
 ---
 
 ## Overview
-Learned 
+I finished the PHAS_V Student Machine Shop course at the University of British Columbia. There, I gained hands-on experience in safe shop practices and basic machining techniques. I worked a lot with measurement and drawing, hand tools, drill presses, lathes, and milling machines. I learned processes like facing, turning, threading, drilling, and edge finding. In a multi-stage project, I used these skills to plan and make a functional part. This helped me develop practical skills in machining strategies, tool selection, and workshop safety.
 
 ## Key Features
-- **3D modelling in Onshape:** Designed different parts such as the claw and chassis and integrated them into assemblies.  
-- **Autonomous Navigation:** Worked on line following and creating mounts to ensure consistent results.  
-- **Mechanical Design:** Custom-built chassis using laser cutter, 3D printer, waterjet cutter, and other sheet metal tools.  
-- **Teamwork:** Collaborated with 3 teammates for software, electronics, and testing integration.
+- **Analyzing Engineering Drawings**
+- **Turning Parts on Lathe:**  
+- **End milling and ball milling**
+- **Using Edge Finders**
+- **Drilling and tapping holes** 
+- **Using Dies to create external threads** 
 
-## Technologies Used
-- **Hardware:** ESP32, Time of Flight sensors, ultrasonic sensors, servo motors, IR sensors, DC motors  
-- **Software:** C++  
-- **Tools:** Onshape, 3D printer, soldering station, waterjet cutter, laser cutter, lathe, drill press  
 
 ## Gallery
 <div align="center">
-  <video width="80%" controls>
-    <source src="/images/Claw_Actuation.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+ <!-- <img src='/images/Robot_1.jpg'>
+   -->
 </div>
 
