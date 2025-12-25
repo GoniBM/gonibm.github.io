@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <!-- Embed PDF preview -->
-<iframe src="/files/resume.pdf" width="100%" height="800px">
+<iframe src="/files/Goni Bebzuck Marom Resume 2025.pdf" width="100%" height="800px">
   Your browser does not support PDFs. You can download it <a href="/files/resume.pdf">here</a>.
 </iframe>
 
