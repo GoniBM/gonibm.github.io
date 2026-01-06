@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 
 <!-- Embed PDF preview -->
-<iframe src="/files/Goni_Resume_2026.pdf" width="100%" height="800px">
-  Your browser does not support PDFs. You can download it <a href="/files/Goni_Resume_2026.pdf">here</a>.
+<iframe src="/files/resume.pdf" width="100%" height="800px">
+  Your browser does not support PDFs. You can download it <a href="/files/resume.pdf">here</a>.
 </iframe>
 
 Education
