@@ -5,10 +5,10 @@ collection: portfolio
 ---
 
 ## Overview
-This project involved designing and building an autonomous mobile robot to compete in a *pet rescue challenge*.  
-The robot was programmed to navigate an obstacle course, identify target objects (representing lost pets), and safely transport them to a designated area.
+This project involved designing and building an autonomous mobile robot to compete in a pet rescue competition.   
+The robot was programmed to navigate an obstacle course, identify stuffed pets, and  transport them to the safe area.
 
-## Key Features
+## Design
 - **3D modelling in Onshape:** Designed different parts such as the claw and chassis and integrated them into assemblies.  
 - **Autonomous Navigation:** Worked on line following and creating mounts to ensure consistent results.  
 - **Mechanical Design:** Custom-built chassis using laser cutter, 3D printer, waterjet cutter, and other sheet metal tools.  
@@ -19,7 +19,7 @@ The robot was programmed to navigate an obstacle course, identify target objects
 - **Software:** C++  
 - **Tools:** Onshape, 3D printer, soldering station, waterjet cutter, laser cutter, lathe, drill press  
 
-## Gallery
+## Claw Design for picking up pets 
 <div align="center">
   <video width="80%" controls>
     <source src="/images/Claw_Actuation.mp4" type="video/mp4">
