@@ -28,7 +28,9 @@ I mainly worked on the chassis, the claw for picking up pets, and the ramp desig
 - **Software:** C++  
 - **Tools:** Onshape, 3D printer, soldering station, waterjet cutter, laser cutter, lathe, drill press  
 
-## Claw Design for picking up pets animation
+## Claw Design 
+
+### Animation 
 <div align="center">
   <video width="80%" controls>
     <source src="/images/Claw_Actuation.mp4" type="video/mp4">
@@ -36,6 +38,7 @@ I mainly worked on the chassis, the claw for picking up pets, and the ramp desig
   </video>
 </div>
 
+### Design
 The claw was built modularly with all 3d printed parts, allowing for customization of individual parts and trying different designs, such as different gear ratios and claw pincer designs, without having to re-print everything. This modularity was very useful since, as can be seen in the map, one pet was inside a hollow pillar, so it took some fine-tuning of different parameters to make sure the claw could pick up all the pets on the map.
 
 <br/><img src='/images/claw_2.png'>
