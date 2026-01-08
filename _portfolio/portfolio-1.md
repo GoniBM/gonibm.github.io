@@ -39,9 +39,9 @@ I mainly worked on the chassis, the claw for picking up pets, and the ramp desig
 </div>
 
 ### Design
-The claw was built modularly with all 3d printed parts, allowing for customization of individual parts and trying different designs, such as different gear ratios and claw pincer designs, without having to re-print everything. This modularity was very useful since, as can be seen in the map, one pet was inside a hollow pillar, so it took some fine-tuning of different parameters to make sure the claw could pick up all the pets on the map.
+The claw is driven by a servo motor, which goes through a gear reduction to increase torque. This is because picking up the pets consistently without any drops was more important than picking them up very quickly. The claw was built modularly with all 3d printed parts, allowing for customization of individual parts and trying different designs, such as different gear ratios and claw pincer designs, without having to re-print everything. This modularity was very useful since, as can be seen in the map, one pet was inside a hollow pillar, so it took some fine-tuning of different parameters to make sure the claw could pick up all the pets on the map.
 
-<br/><img src='/images/claw_2.png'>
+<br/><img src='/images/claw.png'>
 
 
 
