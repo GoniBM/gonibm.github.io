@@ -6,4 +6,4 @@ order: 4
 ---
 
 Below is a drawing I made of the entire circuit. 
-<img src='images/CircuitSketchFull.jpg'>
+<img src='/images/CircuitSketchFull.jpg' alt='Full Servo Motor Circuit Sketch'>
