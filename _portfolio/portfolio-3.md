@@ -1,6 +1,6 @@
 ---
 title: "BAJA firewall"
-excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src="/images/front.jpeg'>"
+excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src='/images/front.jpeg'>"
 collection: portfolio
 ---
 
