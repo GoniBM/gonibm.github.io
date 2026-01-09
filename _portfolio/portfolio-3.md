@@ -73,8 +73,6 @@ I decided to attach the firewall to the frame using bent tabs since this is the 
 Using cardboard and a laser cutter I made some intitial physical prototypes since you cannot rely on the frame to be 100% cad accurate. 
 
 ## Prototyping
-<img src="/images/prototype.jpg">
-
 <div style="display: flex; gap: 2rem; justify-content: center;">
 
   <figure style="text-align: center;">
