@@ -5,10 +5,9 @@
 
   {% for post in site.portfolio %}
 
+    {% assign teaser = nil %}
     {% if post.header.teaser %}
-      {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-    {% else %}
-      {% assign teaser = site.teaser %}
+      {% assign teaser = post.header.teaser %}
     {% endif %}
 
     {% if post.id %}
@@ -21,7 +20,7 @@
     <div class="{{ include.type | default: "list" }}__item" style="flex: 0 0 45%; box-sizing: border-box;">
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-        {% if include.type == "grid" and teaser %}
+        {% if teaser %}
           <div class="archive__item-teaser">
             <img src=
               {% if teaser contains "://" %}
