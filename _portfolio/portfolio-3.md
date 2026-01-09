@@ -75,6 +75,19 @@ Using cardboard and a laser cutter I made some intitial physical prototypes sinc
 ## Prototyping
 <img src="/images/prototype.jpg">
 
+<div style="display: flex; gap: 2rem; justify-content: center;">
+
+  <figure style="text-align: center;">
+    <h3>Prototype Sheet</h3>
+    <img src="/images/prototype.jpg" alt="Firewall sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </figure>
+
+  <figure style="text-align: center;">
+    <h3>Prototype Should Protection Box</h3>
+    <img src="/images/prototypeBox.jpeg" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </figure>
+
+</div>
 ## Final CAD
 <div style="display: flex; gap: 2rem; justify-content: center;">
 
