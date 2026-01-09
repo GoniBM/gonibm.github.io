@@ -1,6 +1,6 @@
 ---
 title: "BAJA firewall"
-excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src='/images/front..jpeg'>"
+excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src='/images/front.jpg'>"
 collection: portfolio
 ---
 
@@ -26,8 +26,20 @@ Communication with several subteams was made to make the appropriate cutouts. Af
 
 
 ## Initial Sketching and Design
-<img src="/images/firewallSketch.jpg">
-<img src="/images/boxes_sketching.jpg">
+<div style="display: flex; gap: 2rem; justify-content: center;">
+
+  <figure style="text-align: center;">
+    <h3>Firewall Initial CAD</h3>
+    <img src="/images/firewallSketch.jpg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
+  </figure>
+
+  <figure style="text-align: center;">
+    <h3>Shoulder Belt Protection Boxes Sketches</h3>
+    <img src="/images/boxes_sketching.jpg" alt="Box layout sketch" style="max-width: 100%; height: auto;">
+  </figure>
+
+</div>
+
 
 I decided to attach the firewall to the frame using bent tabs since this is the most robust solution: 
 
