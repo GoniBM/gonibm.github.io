@@ -22,29 +22,59 @@ The majour rules to follow can be simplified and put into simpler language:
 -Select cutouts are allowed, given proper sealing
 -Must be mechanically fastened
 
-Communication with several subteams was made to make the appropriate cutouts. After I got this information I made my intial sketches and CAD. 
+Communication with several subteams was made to make the appropriate cutouts. After I got this information, I made my initial sketches and CAD of the main body.  
 
 
-## Initial Sketching and Design
+## Initial Sketching and Design of Main Body
 <div style="display: flex; gap: 2rem; justify-content: center;">
 
   <figure style="text-align: center;">
-    <h3>Firewall Initial CAD</h3>
-    <img src="/images/firewallSketch.jpg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
+    <h3>Firewall Initial Sketches</h3>
+    <img src="/images/iniFirewall.jpg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
   </figure>
 
   <figure style="text-align: center;">
-    <h3>Shoulder Belt Protection Boxes Sketches</h3>
-    <img src="/images/boxes_sketching.jpg" alt="Box layout sketch" style="max-width: 100%; height: auto;">
+    <h3>Firewall Intitial CAD</h3>
+    <img src="/images/firewallSketch.jpg" alt="Box layout sketch" style="max-width: 100%; height: auto;">
   </figure>
 
 </div>
 
 
-I decided to attach the firewall to the frame using bent tabs since this is the most robust solution: 
+## Initial Sketching and Design of Shoulder Belt Pocketing: 
 
-## Securing and Fastening
-<img src="/images/tab.JPG">
+<div style="display: flex; gap: 2rem; justify-content: center;">
+
+  <figure style="text-align: center;">
+    <h3>Shoulder Pocketing Initial Sketch</h3>
+    <img src="/images/boxes_sketching.jpg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
+  </figure>
+
+  <figure style="text-align: center;">
+    <h3>Shoulder Pocketing CAD</h3>
+    <img src="/images/cadBox.png" alt="Box layout sketch" style="max-width: 100%; height: auto;">
+  </figure>
+
+</div>
+
+
+I decided to attach the firewall to the frame using bent tabs since this is the most robust solution, below is an initial sketch and then also the tab integrated into the whole assembly:  
+
+## Securing and Fastening Firewall
+<div style="display: flex; gap: 2rem; justify-content: center;">
+
+  <figure style="text-align: center;">
+    <h3>Firewall Tab Sketch</h3>
+    <img src="/images/tab-sketch.jpeg" alt="Firewall tab sketch" style="max-width: 100%; height: auto;">
+  </figure>
+
+  <figure style="text-align: center;">
+    <h3>CAD Firewall Tab</h3>
+    <img src="/images/tab.JPG" alt="Fabricated firewall tab" style="max-width: 100%; height: auto;">
+  </figure>
+
+</div>
+
 
 
 Using cardboard and a laser cutter I made some intitial physical prototypes since you cannot rely on the frame to be 100% cad accurate. 
