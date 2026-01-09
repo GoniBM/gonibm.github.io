@@ -90,7 +90,7 @@ Using cardboard and a laser cutter I made some intitial physical prototypes sinc
 
   <figure style="text-align: center;">
     <h3>Firewall Assembly View 1</h3>
-    <img src="/images/front.jpg" alt="Firewall tab sketch" style="max-width: 100%; height: auto;">
+    <img src="/images/front.JPG" alt="Firewall tab sketch" style="max-width: 100%; height: auto;">
   </figure>
 
   <figure style="text-align: center;">
