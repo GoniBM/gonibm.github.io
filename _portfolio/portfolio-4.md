@@ -1,6 +1,7 @@
 ---
 title: "Servo Motor Controller Circuit"
-excerpt: "Self-Correcting Speed Servo Motor Circuit  <br/><img src='/images/FinalCircuit.jpg'>"
+excerpt: "Self-Correcting Speed Servo Motor Circuit  <br/>
+<img src='/images/FinalCircuit.jpg' style='transform: rotate(90deg); max-width:100%; height:auto;' alt='Servo Motor Circuit'>"
 collection: portfolio
 order: 4
 ---
