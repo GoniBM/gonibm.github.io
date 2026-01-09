@@ -1,6 +1,6 @@
 ---
 title: "BAJA firewall"
-excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src='/images/front.jpg'>"
+excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src='/images/front.JPG'>"
 collection: portfolio
 ---
 
@@ -76,13 +76,32 @@ I decided to attach the firewall to the frame using bent tabs since this is the 
 </div>
 
 
-
 Using cardboard and a laser cutter I made some intitial physical prototypes since you cannot rely on the frame to be 100% cad accurate. 
 
 ## Prototyping
 <img src="/images/prototype.jpg">
 
-## Final Design
+
+
+
+
+## Final CAD
+<div style="display: flex; gap: 2rem; justify-content: center;">
+
+  <figure style="text-align: center;">
+    <h3>Firewall Assembly View 1</h3>
+    <img src="/images/front.jpg" alt="Firewall tab sketch" style="max-width: 100%; height: auto;">
+  </figure>
+
+  <figure style="text-align: center;">
+    <h3>Firwall Assembly View 2</h3>
+    <img src="/images/back.JPG" alt="Fabricated firewall tab" style="max-width: 100%; height: auto;">
+  </figure>
+
+</div>
+
+
+## Manufactured Design
 
 
 
