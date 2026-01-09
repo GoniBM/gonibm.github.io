@@ -30,7 +30,7 @@ Communication with several subteams was made to make the appropriate cutouts. Af
 
   <figure style="text-align: center;">
     <h3>Firewall Initial Sketches</h3>
-    <img src="/images/iniFirewall.jpg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
+    <img src="/images/iniFirewall.jpeg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
   </figure>
 
   <figure style="text-align: center;">
@@ -47,7 +47,7 @@ Communication with several subteams was made to make the appropriate cutouts. Af
 
   <figure style="text-align: center;">
     <h3>Shoulder Pocketing Initial Sketch</h3>
-    <img src="/images/boxes_sketching.jpg" alt="Firewall sketch" style="max-width: 100%; height: auto;">
+    <img src="/images/boxes_sketching.jpg" alt="Firewall sketch" style="max-width: 50%; height: auto;">
   </figure>
 
   <figure style="text-align: center;">
