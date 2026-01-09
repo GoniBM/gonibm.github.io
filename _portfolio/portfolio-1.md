@@ -2,6 +2,7 @@
 title: "Autonomous Robot"
 excerpt: "Building an autonomous robot for a pet rescue competition<br/><img src='/images/Robot_1.jpg'>"
 collection: portfolio
+order: 1
 ---
 
 ## Overview
