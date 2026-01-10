@@ -45,59 +45,42 @@ the current
 
 ## Circuit Pictures
 
-### Latch Circuit
-Latch schematic  
-<img src="/images/LatchCircuit.jpg">
-
-Alternate latch schematic  
-<img src="/images/Latch_Circuit.jpg">
-
-D-Latch breadboard  
-<img src="/images/DlatchBreadboard.jpg">
-
-D-Latch logic  
-<img src="/images/DLatchLogic.png">
+### Latch Circuit Diagram and Breadboard
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/LatchCircuit.png" style="width:48%;">
+  <img src="/images/Latch_Circuit.jpg" style="width:48%;">
+</div>
 
 ---
 
-### Buffer Circuit
-Buffer schematic  
-<img src="/images/Buffer.jpg">
-
-Buffer breadboard  
-<img src="/images/BufferBreadboard.jpg">
-
-Buffer test  
-<img src="/images/bufferTest.png">
+### Pulse & Timing Oscilloscope Outputs
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/Delay_Pulse.png" style="width:48%;">
+  <img src="/images/Reset_Pulse.png" style="width:48%;">
+</div>
 
 ---
 
-### Pulse & Timing
-Delay pulse circuit  
-<img src="/images/Delay_Pulse.png">
-
-Reset pulse circuit  
-<img src="/images/Reset_Pulse.png">
-
----
-
-### Counter Logic
-Counter logic diagram  
-<img src="/images/CounterLogic.png">
+### Clock – DLatch Circuit Breadboard and Logic Analyzer Output
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/DlatchBreadboard.jpg" style="width:32%;">
+  <img src="/images/DLatchLogic.png" style="width:32%;">
+  <img src="/images/CounterLogic.png" style="width:32%;">
+</div>
 
 ---
 
-### DAC & Amplifier
-DAC test  
-<img src="/images/DacTest.png">
+### DLatch – R2R – Buffer Circuit Diagram, Breadboard, and Testing
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/Buffer.jpg" style="width:32%;">
+  <img src="/images/BufferBreadboard.jpg" style="width:32%;">
+  <img src="/images/bufferTest.png" style="width:32%;">
+</div>
 
-Error amplifier schematic  
-<img src="/images/ErrorAmplifier.jpg">
+---
 
-Alternate error amplifier  
-<img src="/images/Error_Amplifier.jpg">
-
-
-
-
-
+### Amplifier
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/ErrorAmplifier.jpg" style="width:48%;">
+  <img src="/images/Error_Amplifier.jpg" style="width:48%;">
+</div>
