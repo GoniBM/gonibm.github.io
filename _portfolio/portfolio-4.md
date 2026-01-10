@@ -54,7 +54,7 @@ the current
 ---
 
 ### Pulse & Timing Oscilloscope Outputs
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
   <img src="/images/Delay_Pulse.png" style="max-width:48%; height:auto; flex:0 0 auto;">
   <img src="/images/Reset_Pulse.png" style="max-width:48%; height:auto; flex:0 0 auto;">
 </div>
@@ -62,7 +62,7 @@ the current
 ---
 
 ### Clock – DLatch Circuit Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
   <img src="/images/DlatchBreadboard.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
   <img src="/images/DLatchLogic.png" style="max-width:32%; height:auto; flex:0 0 auto;">
 </div>
@@ -70,7 +70,7 @@ the current
 ---
 
 ### DLatch – R2R – Buffer Circuit Diagram, Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
   <img src="/images/Buffer.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
   <img src="/images/BBREADBOARD.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
 </div>
@@ -78,7 +78,7 @@ the current
 ---
 
 ### Amplifier
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
   <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; height:auto; flex:0 0 auto;">
   <img src="/images/Error_Amplifier.jpg" style="max-width:48%; height:auto; flex:0 0 auto;">
 </div>
