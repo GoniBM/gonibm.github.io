@@ -47,40 +47,40 @@ the current
 
 ### Latch Circuit Diagram and Breadboard
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/LatchCircuit.png" style="width:48%;">
-  <img src="/images/Latch_Circuit.jpg" style="width:48%;">
+  <img src="/images/LatchCircuit.png" style="max-width:48%; height:auto;">
+  <img src="/images/Latch_Circuit.png" style="max-width:48%; height:auto;">
 </div>
 
 ---
 
 ### Pulse & Timing Oscilloscope Outputs
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/Delay_Pulse.png" style="width:48%;">
-  <img src="/images/Reset_Pulse.png" style="width:48%;">
+  <img src="/images/Delay_Pulse.png" style="max-width:48%; height:auto;">
+  <img src="/images/Reset_Pulse.png" style="max-width:48%; height:auto;">
 </div>
 
 ---
 
 ### Clock – DLatch Circuit Breadboard and Logic Analyzer Output
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/DlatchBreadboard.jpg" style="width:32%;">
-  <img src="/images/DLatchLogic.png" style="width:32%;">
-  <img src="/images/CounterLogic.png" style="width:32%;">
+  <img src="/images/DlatchBreadboard.jpg" style="max-width:32%; height:auto;">
+  <img src="/images/DLatchLogic.png" style="max-width:32%; height:auto;">
+  <img src="/images/CounterLogic.png" style="max-width:32%; height:auto;">
 </div>
 
 ---
 
 ### DLatch – R2R – Buffer Circuit Diagram, Breadboard, and Testing
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/Buffer.jpg" style="width:32%;">
-  <img src="/images/BufferBreadboard.jpg" style="width:32%;">
-  <img src="/images/bufferTest.png" style="width:32%;">
+  <img src="/images/Buffer.jpg" style="max-width:32%; height:auto;">
+  <img src="/images/BufferBreadboard.jpg" style="max-width:32%; height:auto;">
+  <img src="/images/bufferTest.png" style="max-width:32%; height:auto;">
 </div>
 
 ---
 
 ### Amplifier
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/ErrorAmplifier.jpg" style="width:48%;">
-  <img src="/images/Error_Amplifier.jpg" style="width:48%;">
+  <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; height:auto;">
+  <img src="/images/Error_Amplifier.jpg" style="max-width:48%; height:auto;">
 </div>
