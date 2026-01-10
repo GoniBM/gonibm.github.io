@@ -61,24 +61,21 @@ the current
 
 ---
 
-### Clock – DLatch Circuit Breadboard and Logic Analyzer Output
+### Clock – DLatch Circuit Breadboard
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
   <img src="/images/DlatchBreadboard.jpg" style="max-width:32%; height:auto;">
   <img src="/images/DLatchLogic.png" style="max-width:32%; height:auto;">
-  <img src="/images/CounterLogic.png" style="max-width:32%; height:auto;">
 </div>
 
 ---
 
-### DLatch – R2R – Buffer Circuit Diagram, Breadboard, and Testing
+### DLatch – R2R – Buffer Circuit Diagram, Breadboard
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
   <img src="/images/Buffer.jpg" style="max-width:32%; height:auto;">
   <img src="/images/BufferBreadboard.jpg" style="max-width:32%; height:auto;">
-  <img src="/images/bufferTest.png" style="max-width:32%; height:auto;">
 </div>
 
 ---
-
 ### Amplifier
 <div style="display:flex; gap:1rem; flex-wrap:wrap;">
   <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; height:auto;">
