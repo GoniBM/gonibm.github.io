@@ -46,38 +46,40 @@ the current
 ## Circuit Pictures
 
 ### Latch Circuit Diagram and Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/LatchCircuit.png" style="max-width:48%; height:auto;">
-  <img src="/images/Latch_Circuit.png" style="max-width:48%; height:auto;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+  <img src="/images/LatchCircuit.png" style="max-width:48%; width:100%; height:auto !important;">
+  <img src="/images/Latch_Circuit.png" style="max-width:48%; width:100%; height:auto !important;">
 </div>
 
 ---
 
 ### Pulse & Timing Oscilloscope Outputs
-<div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/Delay_Pulse.png" style="max-width:48%; height:auto;">
-  <img src="/images/Reset_Pulse.png" style="max-width:48%; height:auto;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+  <img src="/images/Delay_Pulse.png" style="max-width:48%; width:100%; height:auto !important;">
+  <img src="/images/Reset_Pulse.png" style="max-width:48%; width:100%; height:auto !important;">
 </div>
 
 ---
 
 ### Clock – DLatch Circuit Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/DlatchBreadboard.jpg" style="max-width:32%; height:auto;">
-  <img src="/images/DLatchLogic.png" style="max-width:32%; height:auto;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+  <img src="/images/DlatchBreadboard.jpg" style="max-width:32%; width:100%; height:auto !important;">
+  <img src="/images/DLatchLogic.png" style="max-width:32%; width:100%; height:auto !important;">
 </div>
 
 ---
 
 ### DLatch – R2R – Buffer Circuit Diagram, Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/Buffer.jpg" style="max-width:32%; height:auto;">
-  <img src="/images/BufferBreadboard.jpg" style="max-width:32%; height:auto;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+  <img src="/images/Buffer.jpg" style="max-width:32%; width:100%; height:auto !important;">
+  <img src="/images/BufferBreadboard.jpg" style="max-width:32%; width:100%; height:auto !important;">
 </div>
 
 ---
+
 ### Amplifier
-<div style="display:flex; gap:1rem; flex-wrap:wrap;">
-  <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; height:auto;">
-  <img src="/images/Error_Amplifier.jpg" style="max-width:48%; height:auto;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+  <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; width:100%; height:auto !important;">
+  <img src="/images/Error_Amplifier.jpg" style="max-width:48%; width:100%; height:auto !important;">
 </div>
+>
