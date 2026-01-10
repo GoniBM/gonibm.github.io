@@ -72,7 +72,7 @@ the current
 ### DLatch – R2R – Buffer Circuit Diagram, Breadboard
 <div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
   <img src="/images/Buffer.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
-  <img src="/images/BufferBreadboard.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
+  <img src="/images/BBREADBOARD.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
 </div>
 
 ---
