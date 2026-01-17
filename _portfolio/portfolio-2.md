@@ -19,8 +19,11 @@ I finished the PHAS_V Student Machine Shop course at the University of British C
 
 
 ## Gallery
+Turning brass on the lathe. Using a die to create external threads for a bolt. Used a tap to create the internal threads on the nuts: 
 <div align="center">
- <!-- <img src='/images/Robot_1.jpg'>
+ <!-- <img src='/images/Lathed.jpeg'>
    -->
 </div>
+
+
 
