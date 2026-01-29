@@ -24,6 +24,23 @@ Turning brass on the lathe. Using a die to create external threads for a bolt. U
  <img src='/images/Lathed.jpeg'>
 </div>
 
+Lathed aluminum collar attached to a waterjet and a milled plate. The phone rests against the plate, and the collar goes over the bolt that attaches both sides: 
+<div align="center"> 
+ <img src='/images/WL.jpeg'>
+</div>
+
+Milled and drilled aluminum foot for holding the phone
+
+<div align="center"> 
+ <img src='/images/Foot.jpeg'>
+</div>
+
+Almost complete phone stand (to be updated): 
+
+<div align="center"> 
+ <img src='/images/almostB.jpeg'>
+</div>
+
 
 
 
