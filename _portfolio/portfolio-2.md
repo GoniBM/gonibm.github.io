@@ -103,3 +103,20 @@ Using cardboard and a laser cutter I made some intitial physical prototypes sinc
 </div>
 
 ## Manufactured Design
+The boxes for pocketing the belts were manufactured by waterjet cutting the flat pattern from solidowrks and using a hand bender. The edges along the corner werent as closed as I would like after hand bending so I added some rivets to hold everything together better: 
+
+
+<figure style="text-align: center;">
+    <h3>Prototype Should Protection Box</h3>
+    <img src="/images/BOX.jpeg" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </figure>
+
+  Here are some final photos with the firewall all in place and ready for competition!
+  
+<figure style="text-align: center;">
+    <h3>Prototype Should Protection Box</h3>
+    <img src="/images/done.jpeg" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </figure>
+
+  
+
