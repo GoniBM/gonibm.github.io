@@ -74,7 +74,7 @@ Based on the motor, I designed some custom 3d printed motor mounts shown on th l
 The chassis was made specifically with laser-cut hardboard in mind. This material is readily available and was sufficiently strong for the robot we were making. The indiviual 2d chassis parts were connected with tab and slots. The motors driving the wheels were in the back. Therefore, a lot of the sensing circuits were designed to be in the front to avoid electrical noise contaimation those lines. 
 
 <div style="display: flex; gap: 20px; justify-content: center;">
-  <img src="/images/Chassis_Assembl.png" width="45%">
+  <img src="/images/Chassis_Assembly.png" width="45%">
   <img src="/images/chassis_top.png" width="45%">
 </div>
 
