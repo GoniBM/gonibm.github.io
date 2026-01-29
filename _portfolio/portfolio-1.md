@@ -46,10 +46,21 @@ The claw is driven by a servo motor, which goes through a gear reduction to incr
 <br/><img src='/images/claw.png'>
 
 ## Chassis Design 
+
+There were many options for mounting wheels. You can do rear wheel drive with a castor at the front which allows for easier manuverability, but not good for the 1in high debris on the track.  You can do four wheel drive which allows for higher speeds, but you need four motos which is heavy and you are more likely to induce noise in your noise sensative circuits. Because of this I decided two use rear wheel drive with two omni wheels at the front. It worked with the debris, and allowed for good enough manuervability without needing four motors. I did some calculations on the chassis height off the floor needed to clear the ramp part as a first step: 
+
+
+<br/><img src='/images/WheelCalc.png'>
+br/><img src='/images/MotorCalc.png'>
+
+
+After I also did some motor calculations to source what motors we wanted to drive the robot: 
+
 The chassis was made specifically with laser-cut hardboard in mind. This material is readily available and was sufficiently strong for the robot we were making. The indiviual 2d chassis parts were connected with tab and slots. The motors driving the wheels were in the back. Therefore, a lot of the sensing circuits were designed to be in the front to avoid electrical noise contaimation those lines. 
 
 <br/><img src='/images/Chassis_Assembly.png'>
-<br/><img src='/images/Chassis_top.png'>
+<br/><img src='/images/chassis_top.png'>
+
 
 
 
