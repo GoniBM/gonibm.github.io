@@ -115,7 +115,7 @@ The boxes for pocketing the belts were manufactured by waterjet cutting the flat
   
 <figure style="text-align: center;">
     <h3>Prototype Should Protection Box</h3>
-    <img src="/images/done.jpeg" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
+    <img src="/images/done1.jpeg" alt="boxes" style="max-width: 100%; height: 300px; object-fit: contain;">
   </figure>
 
   
