@@ -60,15 +60,23 @@ After I also did some motor calculations to source what motors we wanted to driv
 <br/><img src='/images/MotorCalc.png'>
 
 
-Based on the motor, I designed some custom 3d printed motor mounts which gave us the proper ground clearance we want. It was designed to be secured onto the chassis with bolts and locknuts. 
+Based on the motor, I designed some custom 3d printed motor mounts shown on th left, which gave us the proper ground clearance we wanted for the debris. Then I made some corresponding pillow block mounts for the non-driven front wheels shown on the right
 
-<br/><img src='/images/motaA.png'>
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="/images/motaA.png" width="45%">
+  <img src="/images/Pillow.png" width="45%">
+</div>
+
+
 
 
 The chassis was made specifically with laser-cut hardboard in mind. This material is readily available and was sufficiently strong for the robot we were making. The indiviual 2d chassis parts were connected with tab and slots. The motors driving the wheels were in the back. Therefore, a lot of the sensing circuits were designed to be in the front to avoid electrical noise contaimation those lines. 
 
-<br/><img src='/images/Chassis_Assembly.png'>
-<br/><img src='/images/chassis_top.png'>
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="/images/Chassis_Assembl.png" width="45%">
+  <img src="/images/chassis_top.png" width="45%">
+</div>
 
 
 Here is a ramp that was designed with two laser cut acrycrillic triangles joined by a water-jet piece of sheet metal. This held up the springs for the throwing arm: 
