@@ -5,81 +5,70 @@ collection: portfolio
 order: 4
 ---
 
-Below is a drawing I made of the entire circuit. 
-<img src='/images/CircuitSketchFull.jpg' alt='Full Servo Motor Circuit Sketch'>
+## Circuit Overview
 
-## Circuit Logic Overview
+Below is a drawing of the complete servo motor controller circuit.
 
-We need to read the speed at which the motor is turning and based off that data, to control its new
-input. 
+<img src="/images/CircuitSketchFull.jpg" alt="Full Servo Motor Circuit Sketch">
 
-Firstly, we start with the phototransistor circuit attached to the motor, every time the disk spins, and a slit in
-the disk cross the light it creates a pulse creating a clock.
+---
 
-This clock goes through one of the Schmitt inverters to prevent the effect of random noise and into the clock of the counter.
-The counter is composed of two 8-bit counters to create a count by 256. The count keeps count of the clock pulses within a time frame which is essentially
-keeping track of something proportional to the current motor speed. 
+## Speed Sensing & Clock Generation
 
-Then from there the DLATCH latches this
-number from the clock to keep track of our current count while we start the new count. The latch is latching the
-values at the latch frequency which is just the input frequency; a square wave oscillating between 0 and 5V, that is
-inverted twice. However, we don’t want to count forever, we want to count in periods so we can keep altering the
-speed. We do this using the reset pulse generator, which sends a delayed pulse some small time after the latch
-signal, to reset the clock. 
+The motor speed is measured using a phototransistor attached to a slotted disk. Each time a slit passes through the light beam, a pulse is generated, creating a clock signal proportional to motor speed.
 
-Now we have a digital signal representing our count we want to translate this to an analog
-signal. We use the R2R ladder as a DAC to convert this signal to analog by assigning each bit a weight and
-summing. We have a buffer connected to the output of the DAC, so the load on the R2R does not effect the current
-its drawing. The buffer does this since it has very high input impedance. From there this analog signal enters into
-the error amplifier. The voltage at the inverting input is compared to the setpoint voltage (the non inverting input
-voltage). The error amplifier output gives a result that is proportional and integrated compared to the input.
-Essentially, based on how high or low the input is compared to the setpoint it will either output a lower or higher
-voltage to try to keep the output at the desired point (decided by the setpoint).
+To reduce noise, this signal is passed through a Schmitt inverter before being used by the counter.
 
-After the error amplifier the output goes into the Base terminal of the BJT, this is a small current, the BJT will amplify this current so the current
-through the collector is 100 times larger, this is important since the collector current is what is driving the motor to
-spin. There is also a diode which is typically in reverse bias but when we turn off the motor, the coils of the motor
-which acts as an inductor causes a back emf, the diode will be in forward bias now and will allow a safe loop for
-the current
+---
 
+## Counting & Latching the Speed
 
-## Circuit Pictures
+The cleaned clock signal feeds into two cascaded 8-bit counters, producing a 16-bit count over a fixed time window. This value represents the current motor speed.
 
-### Latch Circuit Diagram and Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
-  <img src="/images/LatchCircuit.png" style="max-width:48%; height:auto; flex:0 0 auto;">
-  <img src="/images/Latch_Circuit.png" style="max-width:48%; height:auto; flex:0 0 auto;">
+A D-latch captures the count so it can be processed while the next measurement begins.
+
+### Latch Circuit
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/LatchCircuit.png" style="max-width:48%; height:auto;">
+  <img src="/images/Latch_Circuit.png" style="max-width:48%; height:auto;">
 </div>
 
 ---
 
-### Pulse & Timing Oscilloscope Outputs
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
-  <img src="/images/Delay_Pulse.png" style="max-width:48%; height:auto; flex:0 0 auto;">
-  <img src="/images/Reset_Pulse.png" style="max-width:48%; height:auto; flex:0 0 auto;">
+## Timing & Reset Control
+
+To prevent continuous counting, a reset pulse generator sends a delayed reset shortly after the latch event. This ensures the speed is measured in discrete intervals.
+
+### Pulse Timing
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/Delay_Pulse.png" style="max-width:48%; height:auto;">
+  <img src="/images/Reset_Pulse.png" style="max-width:48%; height:auto;">
 </div>
 
 ---
 
-### Clock – DLatch Circuit Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
-  <img src="/images/DlatchBreadboard.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
-  <img src="/images/DLatchLogic.png" style="max-width:32%; height:auto; flex:0 0 auto;">
+## Digital-to-Analog Conversion
+
+The latched digital value is converted into an analog voltage using an R-2R ladder DAC. Each bit contributes a weighted voltage, producing a signal proportional to motor speed.
+
+A buffer follows the DAC to prevent loading effects due to its high input impedance.
+
+### DLatch → R2R → Buffer
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/Buffer.jpg" style="max-width:32%; height:auto;">
+  <img src="/images/BBREADBOARD.jpg" style="max-width:32%; height:auto;">
 </div>
 
 ---
 
-### DLatch – R2R – Buffer Circuit Diagram, Breadboard
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
-  <img src="/images/Buffer.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
-  <img src="/images/BBREADBOARD.jpg" style="max-width:32%; height:auto; flex:0 0 auto;">
+## Error Amplification & Motor Drive
+
+The analog speed signal is compared to a setpoint voltage using an error amplifier. The resulting output adjusts motor drive voltage to correct speed deviations.
+
+This signal drives a BJT, amplifying current to power the motor. A flyback diode protects against back EMF when the motor is switched off.
+
+### Error Amplifier
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; height:auto;">
+  <img src="/images/Error_Amplifier.jpg" style="max-width:48%; height:auto;">
 </div>
-
----
-
-### Amplifier
-<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
-  <img src="/images/ErrorAmplifier.jpg" style="max-width:48%; height:auto; flex:0 0 auto;">
-  <img src="/images/Error_Amplifier.jpg" style="max-width:48%; height:auto; flex:0 0 auto;">
-</div>
-
