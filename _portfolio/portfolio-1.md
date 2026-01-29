@@ -9,8 +9,10 @@ order: 1
 This project involved designing and building an autonomous  robot to compete in a pet rescue competition from a hypothetical burning building
 The robot was programmed to navigate an obstacle course, identify stuffed pets, and  transport them to the safe area. The playing surface is shown below: 
 
-
-<br/><img src='/images/Surface_Assembly_2025.png'>
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="/images/Surface_Assembly_2025.png" width="45%">
+  <img src="/images/mapTop.png" width="45%">
+</div>
 
 
 There were three ways to approach the competition. Either you collect the pets in a basket, drive them back and forth, collect them in a basket and zipline to safety at the end, or lastly, you could also throw the pets through the hoop. Out of 15 teams, only our team and one other decided to try throwing the pets, as it was the most challenging option. However, we decided to go for it, thinking it would be a fun challenge. 
@@ -19,9 +21,9 @@ There were three ways to approach the competition. Either you collect the pets i
 I mainly worked on the chassis, the claw for picking up pets, and the ramp design to hold the throwing arm. I also worked on some side projects such as mounting different components, such as the IR sensors, and worked on line following PID tuning. 
 
 ## Summary of Contributions
-- **3D modelling in Onshape:** I finalized designs for the claw, chassis and more in onshape, also did assembly integration for others components in the model.
-- **Autonomous Navigation:** Worked on line following and creating mounts to ensure consistent results.  
-- **Mechanical Design:** Custom-built chassis using laser cutter, 3D printer, waterjet cutter, and other sheet metal tools.  
+- **3D modelling in Onshape:** I designed for the claw, chassis, mounts and other mechanical parts in Onshape.
+- **Autonomous Navigation:** Worked on line following and creating IR sensor mounts to ensure consistent results on the hill and debris  
+- **Mechanical Design:** Custom-built chassis using laser-cut hardboard, 3D printed mounts, 3d printed claw,  waterjetcut mounting plates, and sheet metal bent brackets. 
 - **Teamwork:** Collaborated with 3 teammates for software, electronics, and testing integration.
 
 ## Technologies Used
@@ -51,10 +53,17 @@ There were many options for mounting wheels. You can do rear wheel drive with a 
 
 
 <br/><img src='/images/WheelCalc.png'>
-br/><img src='/images/MotorCalc.png'>
 
 
 After I also did some motor calculations to source what motors we wanted to drive the robot: 
+
+br/><img src='/images/MotorCalc.png'>
+
+
+Based on the motor, I designed some custom 3d printed motor mounts which gave us the proper ground clearance we want. It was designed to be secured onto the chassis with bolts and locknuts. 
+
+br/><img src='/images/motA.png'>
+
 
 The chassis was made specifically with laser-cut hardboard in mind. This material is readily available and was sufficiently strong for the robot we were making. The indiviual 2d chassis parts were connected with tab and slots. The motors driving the wheels were in the back. Therefore, a lot of the sensing circuits were designed to be in the front to avoid electrical noise contaimation those lines. 
 
@@ -62,6 +71,9 @@ The chassis was made specifically with laser-cut hardboard in mind. This materia
 <br/><img src='/images/chassis_top.png'>
 
 
+Here is a ramp that was designed with two laser cut acrycrillic triangles joined by a water-jet piece of sheet metal. This held up the springs for the throwing arm: 
+
+br/><img src='/images/ramp.png'>
 
 
 
