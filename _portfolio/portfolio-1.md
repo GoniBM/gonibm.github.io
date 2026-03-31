@@ -74,11 +74,11 @@ Based on the motor, I designed some custom 3d printed motor mounts shown on th l
 The chassis was made specifically with laser-cut hardboard in mind. This material is readily available and was sufficiently strong for the robot we were making. The indiviual 2d chassis parts were connected with tab and slots. The motors driving the wheels were in the back. Therefore, a lot of the sensing circuits were designed to be in the front to avoid electrical noise contaimation those lines. 
 
 <div style="display: flex; gap: 20px; justify-content: center;">
-  <img src="/images/Chassis_Assembly.png" width="45%">
+  <img src="/images/chassis_top.png" width="100%">
 </div>
 
 
-Here is a ramp that was designed with two laser cut acrycrillic triangles joined by a water-jet piece of sheet metal. This held up the springs for the throwing arm: 
+As a part of our throwing arm assembly, we needed a structure to hold the arm. Since we don't want to shift our centre of gravity too far back, this is the design I came up with to have a strong and lightweeight is a base for it. It was designed with two laser cut acrycrillic triangles joined by a water-jet piece of sheet metal. There were 3 M5 bolts on each side, and then holes on the bottom to bolt onto the chassis. 
 
 <br/><img src='/images/ramp.png'>
 
