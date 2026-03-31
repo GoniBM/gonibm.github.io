@@ -20,12 +20,6 @@ There were three ways to approach the competition. Either you collect the pets i
 
 I mainly worked on the chassis, the claw for picking up pets, and the ramp design to hold the throwing arm. I also worked on some side projects such as mounting different components, such as the IR sensors, and worked on line following PID tuning. 
 
-## Summary of Contributions
-- **3D modelling in Onshape:** I designed for the claw, chassis, mounts and other mechanical parts in Onshape.
-- **Autonomous Navigation:** Worked on line following and creating IR sensor mounts to ensure consistent results on the hill and debris  
-- **Mechanical Design:** Custom-built chassis using laser-cut hardboard, 3D printed mounts, 3d printed claw,  waterjetcut mounting plates, and sheet metal bent brackets. 
-- **Teamwork:** Collaborated with 3 teammates for software, electronics, and testing integration.
-
 ## Technologies Used
 - **Hardware:** ESP32, Time of Flight sensors, ultrasonic sensors, servo motors, IR sensors, DC motors  
 - **Software:** C++  
