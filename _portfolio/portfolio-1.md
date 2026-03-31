@@ -78,7 +78,7 @@ The chassis was made specifically with laser-cut hardboard in mind. This materia
 </div>
 
 
-As a part of our throwing arm assembly, we needed a structure to hold the arm. Since we don't want to shift our centre of gravity too far back, this is the design I came up with to have a strong and lightweeight is a base for it. It was designed with two laser cut acrycrillic triangles joined by a water-jet piece of sheet metal. There were 3 M5 bolts on each side, and then holes on the bottom to bolt onto the chassis. 
+As a part of our throwing arm assembly, we needed a structure to hold the arm. Since we don't want to shift our centre of gravity too far back, this is the design I came up with to have a strong and lightweeight is a base for it. It was designed with two laser-cut acrylic triangles joined by two water-jet pieces of sheet metal, one across the top face to make the surface for the arm to lie on, and one sheet that connected on the bottom so the structure could be bolted to the chassis.
 
 <br/><img src='/images/ramp.png'>
 
