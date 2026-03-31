@@ -75,7 +75,6 @@ The chassis was made specifically with laser-cut hardboard in mind. This materia
 
 <div style="display: flex; gap: 20px; justify-content: center;">
   <img src="/images/Chassis_Assembly.png" width="45%">
-  <img src="/images/chassis_top.png" width="45%">
 </div>
 
 
