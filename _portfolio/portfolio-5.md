@@ -1,49 +1,46 @@
 ---
-title: "BAJA Frame Tubes"
-excerpt: "Designing and fabricating frame tubes for the UBC BAJA design team<br/><img src='/images/NiceCope.jpeg'>"
+title: "Machine Shop Course"
+excerpt: 'Building an autonomous robot for a pet rescue competition<br/><img src="/images/cadofMachshop.png" width="600">'
 collection: portfolio
-order: 2
+order: 3
 ---
+
 
 ## Overview
+I finished the PHAS_V Student Machine Shop course at the University of British Columbia. There, I gained hands-on experience in safe shop practices and basic machining techniques. I worked a lot with measurement and drawing, hand tools, drill presses, lathes, and milling machines. I learned processes like facing, turning, threading, drilling, and edge finding. In a multi-stage project, I used these skills to plan and make a functional part. This helped me develop practical skills in machining strategies, tool selection, and workshop safety.
 
-Designed and manufactured four rear frame tubes for the University of British Columbia BAJA SAE design team. The main frame was made out of house, but rule violations the original frame designers made required additional tubes to be added in-house, which our team has not done before. 
----
-## Design
+## What I learned
+- **Analyzing Engineering Drawings**
+- **Turning Parts on Lathe:**  
+- **End milling and ball milling**
+- **Using Edge Finders**
+- **Drilling and tapping holes** 
+- **Using Dies to create external threads** 
 
-Starting from the SAE BAJA rulebook requirements and practical manufacturing constraints, I built a 3D sketch defining the tube geometry. From there, weldments were generated, and members trimmed so the copes would mate cleanly.
 
-<br/><img src='/images/RearTubesSketch.png'>
-<br/><img src='/images/RearTubesWeldments.png'>
-<br/><img src='/images/Rear.png'>
----
+## Some Parts
+Turning brass on the lathe. Using a die to create external threads for a bolt. Used a tap to create the internal threads on the nuts: 
+<div align="center"> 
+ <img src='/images/Lathed.jpeg'>
+</div>
 
-## Cope Templates
+Lathed aluminum collar attached to a waterjet and a milled plate. The phone rests against the plate, and the collar goes over the bolt that attaches both sides: 
+<div align="center"> 
+ <img src='/images/WL.jpeg'>
+</div>
 
-The welders specified that the inside surface of the coped tube must contact the outside of the mating tube. To achieve this:
+Milled and drilled aluminum foot for holding the phone
 
-1. Offset the inner intersection surface outward by the wall thickness — this defines the material to be removed.
-2. Add a slit along the outside of the tube, perpendicular to its axis.
-3. Flatten the surface to produce a 2D cut template.
+<div align="center"> 
+ <img src='/images/Foot.jpeg'>
+</div>
 
-<br/><img src='/images/surfaceOffTrim.png'>
-<br/><img src='/images/surfaceFlatten.png'>
+Almost complete phone stand (to be updated): 
 
-Templates were printed 1:1. A reference dimension was included on each drawing to verify scale, and the SolidWorks print ratio was adjusted until the output matched. The slit location is marked on each template as a top/bottom reference line. This keeps both copies on a tube aligned with each other, which is critical for fit-up.
+<div align="center"> 
+ <img src='/images/almostB.jpeg'>
+</div>
 
-<br/><img src='/images/templateEx.png'>
----
 
-## Fabrication
 
-Centerlines were scribed along each tube using flat square stock as a reference. Templates were aligned to this centerline and spaced using a SolidWorks measurement taken between template positions.
 
-<br/><img src='/images/measure.jpeg'>
-
-Tubes were rough-cut with an angle grinder, then refined with a Dremel and air tool nearer to the template lines. From there, it was iterative fitting and adjustment until everything seated properly. Ofcousrse there was also the work of thoroughly cleaning the tubes and surfaces with sandpaper, scotch brite, and acetone. 
-
-<br/><img src='/images/withPaper.jpeg'>
-<br/><img src='/images/copingMeh.jpeg'>
-<br/><img src='/images/halfFinish.jpeg'>
-<br/><img src='/images/Coped.jpeg'>
-<br/><img src='/images/NiceCope.jpeg'>
