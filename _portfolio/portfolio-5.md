@@ -7,7 +7,7 @@ order: 2
 
 ## Overview
 
-Designed and manufactured four rear frame tubes for the University of British Columbia BAJA SAE design team. The main frame was contracted out, but rule violations in the original design required additional tubes to be added in-house — our team's first time doing this ourselves.
+Designed and manufactured four rear frame tubes for the University of British Columbia BAJA SAE design team. The main frame was made out of house, but rule violations the original frame designers made required additional tubes to be added in-house, which our team has not done before. 
 ---
 ## Design
 
@@ -29,7 +29,7 @@ The welders specified that the inside surface of the coped tube must contact the
 <br/><img src='/images/surfaceOffTrim.png'>
 <br/><img src='/images/surfaceFlatten.png'>
 
-Templates were printed 1:1. A reference dimension was included on each drawing to verify scale, and the SolidWorks print ratio adjusted until the output matched. The slit location is marked on each template as a top/bottom reference line — this keeps both copes on a tube aligned with each other, which is critical for fit-up.
+Templates were printed 1:1. A reference dimension was included on each drawing to verify scale, and the SolidWorks print ratio was adjusted until the output matched. The slit location is marked on each template as a top/bottom reference line. This keeps both copies on a tube aligned with each other, which is critical for fit-up.
 
 <br/><img src='/images/templateEx.png'>
 ---
@@ -40,7 +40,7 @@ Centerlines were scribed along each tube using flat square stock as a reference.
 
 <br/><img src='/images/measure.jpeg'>
 
-Tubes were rough-cut with an angle grinder, then refined with a Dremel down to the template line. From there it was iterative fitting and adjustment until everything seated properly.
+Tubes were rough-cut with an angle grinder, then refined with a Dremel and air tool nearer to the template lines. From there, it was iterative fitting and adjustment until everything seated properly. Ofcousrse there was also the work of thoroughly cleaning the tubes and surfaces with sandpaper, scotch brite, and acetone. 
 
 <br/><img src='/images/withPaper.jpeg'>
 <br/><img src='/images/copingMeh.jpeg'>
