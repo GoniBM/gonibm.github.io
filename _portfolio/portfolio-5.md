@@ -1,6 +1,6 @@
 ---
 title: "BAJA Frame Tubes"
-excerpt: "Designing and fabricating frame tubes for the UBC BAJA design team<br/><img src='/images/Coped.jpeg'>"
+excerpt: "Designing and fabricating frame tubes for the UBC BAJA design team<br/><img src='/images/NiceCope.jpeg'>"
 collection: portfolio
 order: 2
 ---
@@ -46,3 +46,4 @@ Tubes were rough-cut with an angle grinder, then refined with a Dremel down to t
 <br/><img src='/images/copingMeh.jpeg'>
 <br/><img src='/images/halfFinish.jpeg'>
 <br/><img src='/images/Coped.jpeg'>
+<br/><img src='/images/NiceCope.jpeg'>
