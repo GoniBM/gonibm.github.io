@@ -1,121 +1,99 @@
 ---
-title: "BAJA Firewall"
-excerpt: "Designing and fabricating a firewall for the UBC BAJA design team<br/><img src='/images/front.JPG'>"
+title: "Autonomous Robot"
+excerpt: "Building an autonomous robot for a pet rescue competition<br/><img src='/images/Robot_1.jpg'>"
 collection: portfolio
-order: 2
+order: 1
 ---
 
 ## Overview
-I am on the chassis subteam of the UBC Baja design team. I was assigned to create the firewall for the car. This project involves many rules as well as integration with components form other subteams. 
+This project involved designing and building an autonomous robot to save pets from a burning building. The scenario was emulated by an 8 square foot surface that included a ramp, debris, and other obstacles, with stuffed animals scattered throughout that needed to be brought to safety.
 
-## Rules Compliance
+Each team built an autonomous robot programmed to navigate the obstacle course, identify stuffed pets, and transport them to the safe area. The playing surface is shown below:
 
-From the official rulebook: 
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="/images/Surface_Assembly_2025.png" width="45%">
+  <img src="/images/mapTop.png" width="45%">
+</div>
 
-B.8.3 - Firewall  
-All vehicles shall have a firewall separating the cockpit from the engine and fuel tank compartments. The firewall shall be constructed of metal, at least 0.50 mm (0.02 in.) thick. The firewall shall be mounted in the plane of the RRH and cover the area between the ALC and BLC. The firewall shall be mechanically fastened to the RRH. Fuel-safe adhesives are permitted in addition to mechanical fastening. Multiple metal panels may be used to form the firewall, provided there are no gaps between the joints. Select cutouts are allowed for control cables, brake lines, or electrical cables, provided the cutouts have proper grommeting and sealing. Large cutouts in the firewall are explicitly prohibited. Large cutouts include those for CVT ventilation, and other similar items. Air intakes may not penetrate the firewall and must remain within the roll envelope. Cutouts for drivetrain components are permitted.
+There were three ways to approach the competition: collect the pets in a basket and drive them back and forth, collect them in a basket and zipline to safety at the end, or throw the pets through the hoop as seen in the map above. Out of 15 teams, only our team and one other decided to try throwing. It was the hardest option, but we thought it would be a fun challenge.
 
+My main contributions were the chassis, the claw for picking up pets, and the structural base for the throwing arm. I also worked on some side projects: designing and soldering our line-following circuit, mounting the IR sensors, and tuning the line-following PID. I also helped develop our state machine.
 
-## Initial Sketching and Design of Main Body
+## Technologies Used
+- **Hardware:** ESP32, Time of Flight sensors, ultrasonic sensors, servo motors, IR sensors, DC motors  
+- **Software:** C++  
+- **Tools:** Onshape, 3D printer, soldering station, waterjet cutter, laser cutter, lathe, drill press  
 
-Communication with several subteams was made to make the appropriate cutouts. After I got this information, I made my initial sketches and CAD of the main body.  
+## Claw Design 
 
-<div style="display: flex; gap: 2rem; justify-content: center;">
+### Design
 
-  <figure style="text-align: center;">
-    <h3>Firewall Initial Sketches</h3>
-    <img src="/images/iniFirewall.jpeg" alt="Firewall sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
+The claw is driven by a servo motor through a gear reduction to increase torque — picking up pets reliably mattered more than picking them up quickly. It was built modularly with all 3D-printed parts, which made it easy to swap in different gear ratios and pincer designs without reprinting everything. This modularity was especially useful because one pet was hidden inside a hollow pillar, so it took some fine tuning to make sure the claw could handle every pickup on the map.
 
-  <figure style="text-align: center;">
-    <h3>Firewall Intitial CAD</h3>
-    <img src="/images/firewallSketch.jpg" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
+<br/><img src='/images/claw.png'>
+<br/><img src='/images/Claw_Image.png'>
 
+### Animation 
+<div align="center">
+  <video width="80%" controls>
+    <source src="/images/Claw_Actuation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+## Chassis Design 
+
+I designed the chassis from laser-cut hardboard using the tab and slot feature in Onshape, which lets you build a structure that connects similarly to LEGO, held together with wood glue. I went with this approach because of how quickly you can iterate with cardboard. Early on short turnaround made it easy to spot problems fast, which was essential given the tight timeline.
+
+### 3 main chassis iterations 
+
+#### 1: 
+My very first prototype was a simple box. It helped me gauge the tolerances of the laser cutter, test the strength of the hardboard structure, give the team a visual reference for component placement, and serve as a first testbed for wheel mounting.
+
+<br/><img src='/images/Chassis_V1.png'>
+
+#### 2: 
+
+This iteration took our intial brainstroming ideas to see what a chassis could look like. It had the general location of the arm that would pick up the pet and the general location of the throwing arm. It helped us visual our constraints, and do some early on calculations: 
+
+<br/><img src='/images/Chassis_V2.png'>
+
+#### 3: 
+
+Going from a box to a full chassis meant thinking through a lot of layout decisions at once. We pre-planned where all the circuits would go — more robust components like the wheel drivers and power board went in the back, while the sensitive control and sensing boards went up front, away from motor noise. We also wanted the centre of mass biased toward the rear so the driven wheels would have more traction. On top of that, we needed the pet pickup arm positioned so it could hand off cleanly to the throwing arm, with enough clearance for everything to move freely. Finally, we needed a strong enough superstructure to handle the force from the throwing arm without ripping out of the chassis. With all of that in mind, the chassis came together into its final form:
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="/images/chassis_top.png" width="100%">
 </div>
 
 
 
-## Initial Sketching and Design of Shoulder Belt Pocketing: 
+There were a few options to consider for the drivetrain. Rear-wheel drive with a front caster allows for easy maneuverability, but a caster gets stuck easily on the 1-inch debris on the track. Four-wheel drive gives higher speeds, but requires four motors — more weight and more electrical noise near sensitive circuits. I landed on rear-wheel drive with two front omni wheels. The omnis gave us good maneuverability without the extra motors, and having two front contact points meant we didn't get stuck the way a caster would.
 
-As part of the rules, the shoulder belts for the driver that loop over a member of the firewall plane must be pocketed, while keeping the firewall sealed. After some sketching and design review I narrowed down to this design. 
+With the wheel configuration decided, I did some calculations on the chassis ground clearance needed to drive up the ramp without bottoming out:
 
-<div style="display: flex; gap: 2rem; justify-content: center;">
+<br/><img src='/images/WheelCalc.png'>
 
-  <figure style="text-align: center;">
-    <h3>Shoulder Pocketing Initial Sketch</h3>
-    <img src="/images/boxes_sketching.jpg" alt="Firewall sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
+I also ran motor calculations to figure out what drive motors to source:
 
-  <figure style="text-align: center;">
-    <h3>Shoulder Pocketing CAD</h3>
-    <img src="/images/cadBox.png" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
+<br/><img src='/images/MotorCalc.png'>
 
+These were initially unloaded calculations — our robot ended up heavier than expected, so we had to iterate and switch to higher-torque motors.
+
+From there, I designed a custom 3D-printed motor mount (left) so I could set the ground clearance precisely, along with pillow block mounts (right) to rigidly hold the shafts for the front omni wheels. The front omnis rotated about a bearing on the far end of the shaft and were constrained axially with a simple shaft collar.
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="/images/motaA.png" width="45%">
+  <img src="/images/Pillow.png" width="45%">
 </div>
 
 
+The throwing arm needed a dedicated support structure. To avoid shifting the centre of gravity too far back, I designed a lightweight base using two laser-cut acrylic triangles joined by two waterjet sheet metal pieces one across the top face as the arm's resting surface, and one connecting at the bottom so the whole assembly could be bolted to the chassis.
 
-## Securing and Fastening Firewall
+<br/><img src='/images/ramp.png'>
 
-I decided to attach the firewall to the frame using bent tabs since this is the most robust solution. Below is an initial sketch, and then also the tab integrated into the whole assembly:  
+## Results
 
-<div style="display: flex; gap: 2rem; justify-content: center;">
+The claw worked well and picked up pets reliably without dropping them. Where we struggled was getting the claw to drop the pet cleanly into the throwing arm, and getting the arm to consistently reach pets that were farther from the target. One mistake we made was mounting the throwing arm off to one side; it shifted our centre of mass more than we anticipated, which made our line following inconsistent at times.
 
-  <figure style="text-align: center;">
-    <h3>Firewall Tab Sketch</h3>
-    <img src="/images/tab-sketch.jpeg" alt="Firewall tab sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
-
-  <figure style="text-align: center;">
-    <h3>CAD Firewall Tab</h3>
-    <img src="/images/tab.JPG" alt="Fabricated firewall tab" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
-
-</div>
-
-## Prototyping
-
-
-Using cardboard and a laser cutter, I made some initial rapid physical prototypes, since you cannot rely on the frame and the chair to be exactly accurate to CAD.  
-
-<div style="display: flex; gap: 2rem; justify-content: center;">
-
-  <figure style="text-align: center;">
-    <h3>Prototype Sheet</h3>
-    <img src="/images/prototype.jpg" alt="Firewall sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
-
-  <figure style="text-align: center;">
-    <h3>Prototype Should Protection Box</h3>
-    <img src="/images/prototypeBox.jpeg" alt="Box layout sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
-
-</div>
-
-## Final CAD
-<div style="display: flex; gap: 2rem; justify-content: center;">
-
-  <figure style="text-align: center;">
-    <h3>Firewall Assembly View 1</h3>
-    <img src="/images/front.JPG" alt="Firewall tab sketch" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
-
-  <figure style="text-align: center;">
-    <h3>Firwall Assembly View 2</h3>
-    <img src="/images/back.JPG" alt="Fabricated firewall tab" style="max-width: 100%; height: 300px; object-fit: contain;">
-  </figure>
-
-</div>
-
-## Manufactured Design
-The boxes for pocketing the belts were manufactured by waterjet cutting the flat pattern from solidowrks and using a hand bender. The edges along the corner werent as closed as I would like after hand bending so I added some rivets to hold everything together better: 
-
-  <br/><img src='/images/BOX.jpeg'>
-
-  Here are some final photos with the firewall all in place and ready for competition!
-  
- <br/><img src='/images/done1.jpeg'>
-
-  
-
+Overall, we didn't place first, but I don't regret going for the harder approach. It pushed us to solve problems we wouldn't have faced otherwise, and I came away with a lot more than I would have playing it safe.
